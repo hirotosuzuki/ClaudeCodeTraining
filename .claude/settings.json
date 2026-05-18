@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(data/**)",
+      "Read(.claude/**)",
+      "Read(CLAUDE.md)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(python3 scripts/*.py)"
+    ],
+    "deny": [
+      "Write(data/master/**)"
+    ]
+  },
+  "enabledMcpjsonServers": ["google-drive"],
+  "env": {
+    "TZ": "Asia/Tokyo"
+  }
+}

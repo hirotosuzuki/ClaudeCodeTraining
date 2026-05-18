@@ -1,0 +1,21 @@
+# 個人の Claude Code 設定
+.claude/settings.local.json
+
+# 出力物
+output/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 機密情報（誤って置かないため）
+*credentials*.json
+.env
+.env.local
